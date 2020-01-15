@@ -24,7 +24,7 @@ pipeline {
             steps {
 
                 sh 'pwd'
-                sh 'java  -javaagent:pinpoint/pinpoint-bootstrap-1.9.0-SNAPSHOT.jar  -Dpinpoint.agentId=103040 -Dpinpoint.applicationName=twitter -jar target/api-0.0.1-SNAPSHOT.jar'
+            //    sh 'java  -javaagent:pinpoint/pinpoint-bootstrap-1.9.0-SNAPSHOT.jar  -Dpinpoint.agentId=103040 -Dpinpoint.applicationName=twitter -jar target/api-0.0.1-SNAPSHOT.jar'
                 
             }
         }
