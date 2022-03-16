@@ -1,0 +1,11 @@
+#!groovy
+@Library("rod-shared-library") _
+ciMavenBuild
+{
+ BRANCH = ""
+ REPO = ""
+ SONAR_PROPERTIES = ""
+ BUILD_COMMAND = ""
+ APPNAME = ""
+ REPOCONF = ""
+}
